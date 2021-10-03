@@ -30,4 +30,8 @@ jobs:
           name: war
           path: ./build/libs/*.war
 
+      - uses: actions/download-artifact@v2
+        with:
+          name: war
+
       
